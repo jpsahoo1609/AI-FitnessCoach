@@ -10,7 +10,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 ---
-### Try it out - https://ai-fitnesscoach.streamlit.app/
+#### Try it out - https://ai-fitnesscoach.streamlit.app/
 ---
 ## 🚀 What Makes This Special?
 
