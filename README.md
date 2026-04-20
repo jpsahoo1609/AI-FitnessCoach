@@ -1,4 +1,4 @@
-# 💪 AI Fitness Coach
+# AI Fitness Coach
 ## *Your Personal AI-Powered Fitness Revolution*
 
 > **Transform your fitness journey with intelligent AI coaching. Personalized meal plans. Smart workouts. Real-time progress tracking. All in one beautiful app.**
@@ -10,7 +10,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 ---
-
+### Try it out - https://ai-fitnesscoach.streamlit.app/
+---
 ## 🚀 What Makes This Special?
 
 This isn't just another fitness app. It's a **production-ready, cloud-native application** that demonstrates:
