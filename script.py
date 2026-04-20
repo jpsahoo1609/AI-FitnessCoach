@@ -336,7 +336,7 @@ st.markdown('''<style>
 [data-testid="stAppViewContainer"]{background: linear-gradient(135deg, #2d1b2e 0%, #5a1a1a 50%, #1a1a1a 100%);}
 [data-testid="stSidebar"]{background: linear-gradient(135deg, #1a0f10 0%, #3d1515 100%);}
 h1, h2, h3, h4, h5, h6 {color: #ffffff !important;}
-p, span, label, div {color: #ffffff !important;}
+p, span, label {color: #ffffff !important;}
 [data-testid="stMarkdownContainer"] {color: #ffffff !important;}
 [data-testid="stMarkdownContainer"] p {color: #ffffff !important;}
 [data-testid="stMarkdownContainer"] strong {color: #ffffff !important;}
@@ -347,7 +347,20 @@ p, span, label, div {color: #ffffff !important;}
 .stNumberInput label {color: #ffffff !important;}
 .stSelectbox label {color: #ffffff !important;}
 [data-testid="stWidgetLabel"] {color: #ffffff !important;}
-.stButton button {color: #ffffff !important;}
+.stButton button {
+    background-color: #1a1a2e !important;
+    color: #ffffff !important;
+    border: 1px solid #2a2a3e !important;
+}
+.stButton button:hover {
+    background-color: #0f0f1a !important;
+    color: #ffffff !important;
+    border: 1px solid #3a3a4e !important;
+}
+.stButton button:active, .stButton button:focus {
+    background-color: #0a0a14 !important;
+    color: #ffffff !important;
+}
 </style>''', unsafe_allow_html=True)
 st.title("Your AI Fitness Coach")
 
