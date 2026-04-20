@@ -243,8 +243,8 @@ Built to showcase:
 
 ## 📞 Connect
 
-- GitHub: [@yourusername](https://github.com/jpsahoo1609)
-- LinkedIn: [Your Name](www.linkedin.com/in/jyoti-prakash-sahooo-95a542211)
+- GitHub: [link](https://github.com/jpsahoo1609)
+- LinkedIn: [link](www.linkedin.com/in/jyoti-prakash-sahooo-95a542211)
 - Email: jpsahoo1609@gmail.com
 
 ---
