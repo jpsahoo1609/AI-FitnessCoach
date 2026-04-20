@@ -332,7 +332,23 @@ def display_progress_table(workouts_done, weight_loss, fat_loss):
 # ==================== MAIN APP ====================
 
 st.set_page_config(page_title="Your AI Fitness Coach", page_icon="💪", layout="wide")
-st.markdown('''<style>[data-testid="stAppViewContainer"]{background: linear-gradient(135deg, #2d1b2e 0%, #5a1a1a 50%, #1a1a1a 100%);} [data-testid="stSidebar"]{background: linear-gradient(135deg, #1a0f10 0%, #3d1515 100%);}</style>''', unsafe_allow_html=True)
+st.markdown('''<style>
+[data-testid="stAppViewContainer"]{background: linear-gradient(135deg, #2d1b2e 0%, #5a1a1a 50%, #1a1a1a 100%);}
+[data-testid="stSidebar"]{background: linear-gradient(135deg, #1a0f10 0%, #3d1515 100%);}
+h1, h2, h3, h4, h5, h6 {color: #ffffff !important;}
+p, span, label, div {color: #ffffff !important;}
+[data-testid="stMarkdownContainer"] {color: #ffffff !important;}
+[data-testid="stMarkdownContainer"] p {color: #ffffff !important;}
+[data-testid="stMarkdownContainer"] strong {color: #ffffff !important;}
+[data-testid="stMetricLabel"] {color: #ffffff !important;}
+[data-testid="stMetricValue"] {color: #ffffff !important;}
+.stRadio label {color: #ffffff !important;}
+.stTextInput label {color: #ffffff !important;}
+.stNumberInput label {color: #ffffff !important;}
+.stSelectbox label {color: #ffffff !important;}
+[data-testid="stWidgetLabel"] {color: #ffffff !important;}
+.stButton button {color: #ffffff !important;}
+</style>''', unsafe_allow_html=True)
 st.title("Your AI Fitness Coach")
 
 # Initialize session state
